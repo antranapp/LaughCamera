@@ -1,0 +1,1 @@
+This project is a mashup of Fastttcamera Project from IFTTT (https://github.com/IFTTT/FastttCamera) and DSFacialGestureDetector (https://github.com/dannyshmueli/DSFacialGestureDetector)
