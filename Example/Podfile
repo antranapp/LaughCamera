@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+xcodeproj 'Example'
+
+platform :ios, '8.0'
+
+def install_pods
+  pod "LaughCamera", :path => "../LaughCamera.podspec"
+end
+
+target 'Example', :exclusive => true do
+  install_pods
+end

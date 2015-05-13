@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FE486F9CA4BAD172C20EBD2 /* FCFacialGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C40FD562F5BE9FDBA02E963 /* FCFacialGesture.h */; };
+		1D500DAAAA7AD753D23F2D02 /* FCFacialGestureCameraCapturer.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E1DDBAC02F35F06EF42207 /* FCFacialGestureCameraCapturer.h */; };
+		2CF95B536D5D16C0FF77CC7D /* FastttFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 78998FE686802C748A30A728 /* FastttFocus.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		2EE23AA151D6176D81B4E212 /* FastttCapturedImage+Process.m in Sources */ = {isa = PBXBuildFile; fileRef = 003EE2ACA217B6F343E8C4A2 /* FastttCapturedImage+Process.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		37AE844CAF6C713AA51D4503 /* FastttCapturedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 65BD94B02157E0BE30311537 /* FastttCapturedImage.h */; };
+		48AAAC91329312E59B471246 /* FCFacialGesturesDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF82DBB795B511F9E54F878 /* FCFacialGesturesDetector.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		5D0F8A914610EA92A83246B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0120FD8EBC7D329CD9DB7DA7 /* Foundation.framework */; };
+		5E8C3FE2545BA126068E07BA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD6D81438E5B53071C26D4A /* AVFoundation.framework */; };
+		625191385D4D6F3148EABB4F /* FCFacialGestureAggregator.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD687182CCE64FC785F336 /* FCFacialGestureAggregator.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		67C9405656306AD769603FD2 /* FastttCameraInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = C442CCB9A141D4E5CF2C9136 /* FastttCameraInterface.h */; };
+		71852ABBDEFE137BDFE7243B /* FCFacialGestureCameraCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1429957E7807DBCD54F1D392 /* FCFacialGestureCameraCapturer.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		71A9F5AB1D2EAD7FA910132C /* FCFacialGesturesDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C738D33C4B1D3787D1715C2 /* FCFacialGesturesDetector.h */; };
+		7A16B0FFF35FE5642FB317CF /* UIDevice+ExifOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7906DAAAF64438B2A4A03651 /* UIDevice+ExifOrientation.h */; };
+		82CB3ADED2F2D7D3C5ACE971 /* FastttCameraTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 006A3D87E8B248AF13802F3B /* FastttCameraTypes.h */; };
+		8830A93731BB868646002D17 /* FCFacialGestureAggregator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ACF47FD7F4571285145D4A4 /* FCFacialGestureAggregator.h */; };
+		91E6B3D69641E37E958D75D5 /* IFTTTDeviceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3395CCDD6A45468260F6F6F /* IFTTTDeviceOrientation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		931DD500C7D533203EDE3A89 /* AVCaptureDevice+FastttCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = F37CBA70865F2D916BB8EBC9 /* AVCaptureDevice+FastttCamera.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		958B018D3458C99BE6651155 /* Pods-Example-LaughCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E11587EA02A4A2F7ECB132B1 /* Pods-Example-LaughCamera-dummy.m */; };
+		96948D09C5D2B8B027A1415A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0120FD8EBC7D329CD9DB7DA7 /* Foundation.framework */; };
+		97C32867702C1C540E35A1F0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F02AC191F2E05ECAB521E92 /* CoreMotion.framework */; };
+		97F2262F4F0F509185C242CC /* IFTTTDeviceOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3828990FB17498ED9DEA99 /* IFTTTDeviceOrientation.h */; };
+		997CF7C0A3BFCED4A6481CCF /* UIImage+FastttCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = D39513E4A761491BE4C28B85 /* UIImage+FastttCamera.h */; };
+		9B25DA5ADE077E7E3A9C2EEA /* UIViewController+FastttCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 16BC6D25DFC033573CB84963 /* UIViewController+FastttCamera.h */; };
+		9C1CA8E2B39BE1FDE5B0C111 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 330D96E4736C7DE9D103720E /* Pods-Example-dummy.m */; };
+		AEF9B4086CAE88D6281B2D73 /* UIDevice+ExifOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = DD546CA1B4A3AE143D291C23 /* UIDevice+ExifOrientation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		AF75D8F01C5BB03461E7EBBB /* FastttCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D5013F5ABA31E8378191BE /* FastttCamera.h */; };
+		B4043C0AA2CFAAE96B4EB684 /* FCFacialGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2286AE252C4A1B62953EFB0F /* FCFacialGesture.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		C197B9BFDC8AA9BDD97693CC /* AVCaptureDevice+FastttCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E94AA7878EAC69FB56F70B /* AVCaptureDevice+FastttCamera.h */; };
+		CD1406DDB30CA5EDA782BCD7 /* FastttCapturedImage+Process.h in Headers */ = {isa = PBXBuildFile; fileRef = E705AC749DC4BA8AF4828E7D /* FastttCapturedImage+Process.h */; };
+		D69DC2F95DAA3344B33321B1 /* FastttCapturedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2A4AB085A0CD53A3808F35 /* FastttCapturedImage.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		E8D63DEB0B572DCEABFD9270 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A340881601F78EE34707169C /* UIKit.framework */; };
+		E91112D7853EA3654C537FA7 /* FastttCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FB8C51576F9CA45E824942 /* FastttCamera.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		F178012C865B6F02DA712685 /* FastttFocus.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB479EAF44FCD7BA519FF18 /* FastttFocus.h */; };
+		F5B07AF46112585D60EF0F34 /* UIImage+FastttCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 3041764E0E800AB8A355A096 /* UIImage+FastttCamera.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		FDE71B41CF6064E11580AEED /* UIViewController+FastttCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 0512166A46ECAFC2CF7E1819 /* UIViewController+FastttCamera.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8F1C9F36C67F6A1978EB109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 573FDE11126A50BA546A5797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E63DAF59F3A4920712214C;
+			remoteInfo = "Pods-Example-LaughCamera";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003EE2ACA217B6F343E8C4A2 /* FastttCapturedImage+Process.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FastttCapturedImage+Process.m"; sourceTree = "<group>"; };
+		006A3D87E8B248AF13802F3B /* FastttCameraTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FastttCameraTypes.h; sourceTree = "<group>"; };
+		0120FD8EBC7D329CD9DB7DA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		02E1DDBAC02F35F06EF42207 /* FCFacialGestureCameraCapturer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCFacialGestureCameraCapturer.h; sourceTree = "<group>"; };
+		034F848C0DCC7CB23C606E63 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0512166A46ECAFC2CF7E1819 /* UIViewController+FastttCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FastttCamera.m"; sourceTree = "<group>"; };
+		0521D62B16117A4458EB9892 /* Pods-Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-environment.h"; sourceTree = "<group>"; };
+		10FB8C51576F9CA45E824942 /* FastttCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FastttCamera.m; sourceTree = "<group>"; };
+		11D5013F5ABA31E8378191BE /* FastttCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FastttCamera.h; sourceTree = "<group>"; };
+		1429957E7807DBCD54F1D392 /* FCFacialGestureCameraCapturer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCFacialGestureCameraCapturer.m; sourceTree = "<group>"; };
+		16BC6D25DFC033573CB84963 /* UIViewController+FastttCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FastttCamera.h"; sourceTree = "<group>"; };
+		1C40FD562F5BE9FDBA02E963 /* FCFacialGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCFacialGesture.h; sourceTree = "<group>"; };
+		1DF82DBB795B511F9E54F878 /* FCFacialGesturesDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCFacialGesturesDetector.m; sourceTree = "<group>"; };
+		21297CA0B091DEC4003E908E /* Pods-Example-LaughCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-LaughCamera-prefix.pch"; sourceTree = "<group>"; };
+		2286AE252C4A1B62953EFB0F /* FCFacialGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCFacialGesture.m; sourceTree = "<group>"; };
+		2ACF47FD7F4571285145D4A4 /* FCFacialGestureAggregator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCFacialGestureAggregator.h; sourceTree = "<group>"; };
+		2C738D33C4B1D3787D1715C2 /* FCFacialGesturesDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FCFacialGesturesDetector.h; sourceTree = "<group>"; };
+		3041764E0E800AB8A355A096 /* UIImage+FastttCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FastttCamera.m"; sourceTree = "<group>"; };
+		330D96E4736C7DE9D103720E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		3BD6D81438E5B53071C26D4A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F02AC191F2E05ECAB521E92 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		4A9D28A867E5A59F7EC0EDE2 /* Pods-Example-LaughCamera-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-LaughCamera-Private.xcconfig"; sourceTree = "<group>"; };
+		65BD94B02157E0BE30311537 /* FastttCapturedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FastttCapturedImage.h; sourceTree = "<group>"; };
+		6F2A4AB085A0CD53A3808F35 /* FastttCapturedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FastttCapturedImage.m; sourceTree = "<group>"; };
+		78998FE686802C748A30A728 /* FastttFocus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FastttFocus.m; sourceTree = "<group>"; };
+		78FD687182CCE64FC785F336 /* FCFacialGestureAggregator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FCFacialGestureAggregator.m; sourceTree = "<group>"; };
+		7906DAAAF64438B2A4A03651 /* UIDevice+ExifOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+ExifOrientation.h"; sourceTree = "<group>"; };
+		7DF1B99A57F6F66A566C7C0F /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		7E447F590FF193ED56210873 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		90E94AA7878EAC69FB56F70B /* AVCaptureDevice+FastttCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVCaptureDevice+FastttCamera.h"; sourceTree = "<group>"; };
+		A340881601F78EE34707169C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A791E42E83F08412B020CD2B /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		B3395CCDD6A45468260F6F6F /* IFTTTDeviceOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IFTTTDeviceOrientation.m; sourceTree = "<group>"; };
+		C442CCB9A141D4E5CF2C9136 /* FastttCameraInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FastttCameraInterface.h; sourceTree = "<group>"; };
+		CD3828990FB17498ED9DEA99 /* IFTTTDeviceOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IFTTTDeviceOrientation.h; sourceTree = "<group>"; };
+		D39513E4A761491BE4C28B85 /* UIImage+FastttCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+FastttCamera.h"; sourceTree = "<group>"; };
+		D3BE7CA61C8027B7E2790280 /* Pods-Example-LaughCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-LaughCamera.xcconfig"; sourceTree = "<group>"; };
+		D7CAAA3FE87C60EEBF7E3393 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DD546CA1B4A3AE143D291C23 /* UIDevice+ExifOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+ExifOrientation.m"; sourceTree = "<group>"; };
+		DE9985C955EB2559185CBF6A /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11587EA02A4A2F7ECB132B1 /* Pods-Example-LaughCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-LaughCamera-dummy.m"; sourceTree = "<group>"; };
+		E705AC749DC4BA8AF4828E7D /* FastttCapturedImage+Process.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastttCapturedImage+Process.h"; sourceTree = "<group>"; };
+		F37CBA70865F2D916BB8EBC9 /* AVCaptureDevice+FastttCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVCaptureDevice+FastttCamera.m"; sourceTree = "<group>"; };
+		F6006FACFE95A824F0393D71 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD5E98E2275F309C52CB9463 /* libPods-Example-LaughCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example-LaughCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB479EAF44FCD7BA519FF18 /* FastttFocus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FastttFocus.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E34CD8C032C4CB3897A21CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0F8A914610EA92A83246B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E984D3C3105B0284DE52B797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8C3FE2545BA126068E07BA /* AVFoundation.framework in Frameworks */,
+				97C32867702C1C540E35A1F0 /* CoreMotion.framework in Frameworks */,
+				96948D09C5D2B8B027A1415A /* Foundation.framework in Frameworks */,
+				E8D63DEB0B572DCEABFD9270 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15D717BAEF92E7C5EA7FEBCC /* LaughCamera */ = {
+			isa = PBXGroup;
+			children = (
+				90E94AA7878EAC69FB56F70B /* AVCaptureDevice+FastttCamera.h */,
+				F37CBA70865F2D916BB8EBC9 /* AVCaptureDevice+FastttCamera.m */,
+				1C40FD562F5BE9FDBA02E963 /* FCFacialGesture.h */,
+				2286AE252C4A1B62953EFB0F /* FCFacialGesture.m */,
+				2ACF47FD7F4571285145D4A4 /* FCFacialGestureAggregator.h */,
+				78FD687182CCE64FC785F336 /* FCFacialGestureAggregator.m */,
+				02E1DDBAC02F35F06EF42207 /* FCFacialGestureCameraCapturer.h */,
+				1429957E7807DBCD54F1D392 /* FCFacialGestureCameraCapturer.m */,
+				2C738D33C4B1D3787D1715C2 /* FCFacialGesturesDetector.h */,
+				1DF82DBB795B511F9E54F878 /* FCFacialGesturesDetector.m */,
+				11D5013F5ABA31E8378191BE /* FastttCamera.h */,
+				10FB8C51576F9CA45E824942 /* FastttCamera.m */,
+				C442CCB9A141D4E5CF2C9136 /* FastttCameraInterface.h */,
+				006A3D87E8B248AF13802F3B /* FastttCameraTypes.h */,
+				65BD94B02157E0BE30311537 /* FastttCapturedImage.h */,
+				6F2A4AB085A0CD53A3808F35 /* FastttCapturedImage.m */,
+				E705AC749DC4BA8AF4828E7D /* FastttCapturedImage+Process.h */,
+				003EE2ACA217B6F343E8C4A2 /* FastttCapturedImage+Process.m */,
+				FDB479EAF44FCD7BA519FF18 /* FastttFocus.h */,
+				78998FE686802C748A30A728 /* FastttFocus.m */,
+				CD3828990FB17498ED9DEA99 /* IFTTTDeviceOrientation.h */,
+				B3395CCDD6A45468260F6F6F /* IFTTTDeviceOrientation.m */,
+				7906DAAAF64438B2A4A03651 /* UIDevice+ExifOrientation.h */,
+				DD546CA1B4A3AE143D291C23 /* UIDevice+ExifOrientation.m */,
+				D39513E4A761491BE4C28B85 /* UIImage+FastttCamera.h */,
+				3041764E0E800AB8A355A096 /* UIImage+FastttCamera.m */,
+				16BC6D25DFC033573CB84963 /* UIViewController+FastttCamera.h */,
+				0512166A46ECAFC2CF7E1819 /* UIViewController+FastttCamera.m */,
+			);
+			path = LaughCamera;
+			sourceTree = "<group>";
+		};
+		2B13F842CEDC6A2FA40E6CDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8CB9DDC9C99C085ACB9DD02 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C0B7CF74DDD05169C610747 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3BE7CA61C8027B7E2790280 /* Pods-Example-LaughCamera.xcconfig */,
+				4A9D28A867E5A59F7EC0EDE2 /* Pods-Example-LaughCamera-Private.xcconfig */,
+				E11587EA02A4A2F7ECB132B1 /* Pods-Example-LaughCamera-dummy.m */,
+				21297CA0B091DEC4003E908E /* Pods-Example-LaughCamera-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-Example-LaughCamera";
+			sourceTree = "<group>";
+		};
+		8567FC9A7A8391B86872349A = {
+			isa = PBXGroup;
+			children = (
+				034F848C0DCC7CB23C606E63 /* Podfile */,
+				C2E582B5B23AB5678DE62C8D /* Development Pods */,
+				2B13F842CEDC6A2FA40E6CDB /* Frameworks */,
+				E471612A8D1B784B5298EECC /* Products */,
+				C4FFA8329E50E2F51D131186 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B8CB9DDC9C99C085ACB9DD02 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6D81438E5B53071C26D4A /* AVFoundation.framework */,
+				3F02AC191F2E05ECAB521E92 /* CoreMotion.framework */,
+				0120FD8EBC7D329CD9DB7DA7 /* Foundation.framework */,
+				A340881601F78EE34707169C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C2E582B5B23AB5678DE62C8D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4A9C194B6FB9B0F346A0CD0 /* LaughCamera */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C4FFA8329E50E2F51D131186 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6F0AEDA3AB504840ED7CD38 /* Pods-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D4A9C194B6FB9B0F346A0CD0 /* LaughCamera */ = {
+			isa = PBXGroup;
+			children = (
+				15D717BAEF92E7C5EA7FEBCC /* LaughCamera */,
+				7C0B7CF74DDD05169C610747 /* Support Files */,
+			);
+			name = LaughCamera;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E471612A8D1B784B5298EECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE9985C955EB2559185CBF6A /* libPods-Example.a */,
+				FD5E98E2275F309C52CB9463 /* libPods-Example-LaughCamera.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6F0AEDA3AB504840ED7CD38 /* Pods-Example */ = {
+			isa = PBXGroup;
+			children = (
+				F6006FACFE95A824F0393D71 /* Pods-Example-acknowledgements.markdown */,
+				7E447F590FF193ED56210873 /* Pods-Example-acknowledgements.plist */,
+				330D96E4736C7DE9D103720E /* Pods-Example-dummy.m */,
+				0521D62B16117A4458EB9892 /* Pods-Example-environment.h */,
+				A791E42E83F08412B020CD2B /* Pods-Example-resources.sh */,
+				D7CAAA3FE87C60EEBF7E3393 /* Pods-Example.debug.xcconfig */,
+				7DF1B99A57F6F66A566C7C0F /* Pods-Example.release.xcconfig */,
+			);
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D74D7BC038C5ECC0F88F7712 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C197B9BFDC8AA9BDD97693CC /* AVCaptureDevice+FastttCamera.h in Headers */,
+				0FE486F9CA4BAD172C20EBD2 /* FCFacialGesture.h in Headers */,
+				8830A93731BB868646002D17 /* FCFacialGestureAggregator.h in Headers */,
+				1D500DAAAA7AD753D23F2D02 /* FCFacialGestureCameraCapturer.h in Headers */,
+				71A9F5AB1D2EAD7FA910132C /* FCFacialGesturesDetector.h in Headers */,
+				AF75D8F01C5BB03461E7EBBB /* FastttCamera.h in Headers */,
+				67C9405656306AD769603FD2 /* FastttCameraInterface.h in Headers */,
+				82CB3ADED2F2D7D3C5ACE971 /* FastttCameraTypes.h in Headers */,
+				CD1406DDB30CA5EDA782BCD7 /* FastttCapturedImage+Process.h in Headers */,
+				37AE844CAF6C713AA51D4503 /* FastttCapturedImage.h in Headers */,
+				F178012C865B6F02DA712685 /* FastttFocus.h in Headers */,
+				97F2262F4F0F509185C242CC /* IFTTTDeviceOrientation.h in Headers */,
+				7A16B0FFF35FE5642FB317CF /* UIDevice+ExifOrientation.h in Headers */,
+				997CF7C0A3BFCED4A6481CCF /* UIImage+FastttCamera.h in Headers */,
+				9B25DA5ADE077E7E3A9C2EEA /* UIViewController+FastttCamera.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14E63DAF59F3A4920712214C /* Pods-Example-LaughCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6BD562CB2F86CB34B04C4CF /* Build configuration list for PBXNativeTarget "Pods-Example-LaughCamera" */;
+			buildPhases = (
+				D7691385FA29A346471B18A3 /* Sources */,
+				E984D3C3105B0284DE52B797 /* Frameworks */,
+				D74D7BC038C5ECC0F88F7712 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Example-LaughCamera";
+			productName = "Pods-Example-LaughCamera";
+			productReference = FD5E98E2275F309C52CB9463 /* libPods-Example-LaughCamera.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BC4B279ACBC2C1BFCDFAF75F /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997FC68DA9DD3C55527E4FF6 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				B3FAEF72CEBE1F8981CC82C1 /* Sources */,
+				3E34CD8C032C4CB3897A21CA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8CE4E4C99F83D36314BFB0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = DE9985C955EB2559185CBF6A /* libPods-Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		573FDE11126A50BA546A5797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 4A6553D2A48BBA71844E2F4D /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8567FC9A7A8391B86872349A;
+			productRefGroup = E471612A8D1B784B5298EECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC4B279ACBC2C1BFCDFAF75F /* Pods-Example */,
+				14E63DAF59F3A4920712214C /* Pods-Example-LaughCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3FAEF72CEBE1F8981CC82C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1CA8E2B39BE1FDE5B0C111 /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7691385FA29A346471B18A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931DD500C7D533203EDE3A89 /* AVCaptureDevice+FastttCamera.m in Sources */,
+				B4043C0AA2CFAAE96B4EB684 /* FCFacialGesture.m in Sources */,
+				625191385D4D6F3148EABB4F /* FCFacialGestureAggregator.m in Sources */,
+				71852ABBDEFE137BDFE7243B /* FCFacialGestureCameraCapturer.m in Sources */,
+				48AAAC91329312E59B471246 /* FCFacialGesturesDetector.m in Sources */,
+				E91112D7853EA3654C537FA7 /* FastttCamera.m in Sources */,
+				2EE23AA151D6176D81B4E212 /* FastttCapturedImage+Process.m in Sources */,
+				D69DC2F95DAA3344B33321B1 /* FastttCapturedImage.m in Sources */,
+				2CF95B536D5D16C0FF77CC7D /* FastttFocus.m in Sources */,
+				91E6B3D69641E37E958D75D5 /* IFTTTDeviceOrientation.m in Sources */,
+				958B018D3458C99BE6651155 /* Pods-Example-LaughCamera-dummy.m in Sources */,
+				AEF9B4086CAE88D6281B2D73 /* UIDevice+ExifOrientation.m in Sources */,
+				F5B07AF46112585D60EF0F34 /* UIImage+FastttCamera.m in Sources */,
+				FDE71B41CF6064E11580AEED /* UIViewController+FastttCamera.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F8CE4E4C99F83D36314BFB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Example-LaughCamera";
+			target = 14E63DAF59F3A4920712214C /* Pods-Example-LaughCamera */;
+			targetProxy = D8F1C9F36C67F6A1978EB109 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DE6E3A3A62E9DDA1EBCEDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A9D28A867E5A59F7EC0EDE2 /* Pods-Example-LaughCamera-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Example-LaughCamera/Pods-Example-LaughCamera-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		164C09C0C03D8CB68116A654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7735C8A3E7C6C212C9E47111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CAAA3FE87C60EEBF7E3393 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		809EA454D35318DC86833840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1780939DAEA6CF58B077A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A9D28A867E5A59F7EC0EDE2 /* Pods-Example-LaughCamera-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Example-LaughCamera/Pods-Example-LaughCamera-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B66925905E5845C00EE3A6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF1B99A57F6F66A566C7C0F /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A6553D2A48BBA71844E2F4D /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164C09C0C03D8CB68116A654 /* Debug */,
+				809EA454D35318DC86833840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997FC68DA9DD3C55527E4FF6 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7735C8A3E7C6C212C9E47111 /* Debug */,
+				B66925905E5845C00EE3A6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6BD562CB2F86CB34B04C4CF /* Build configuration list for PBXNativeTarget "Pods-Example-LaughCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DE6E3A3A62E9DDA1EBCEDAF /* Debug */,
+				B1780939DAEA6CF58B077A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 573FDE11126A50BA546A5797 /* Project object */;
+}

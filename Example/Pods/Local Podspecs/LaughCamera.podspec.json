@@ -1,0 +1,29 @@
+{
+  "name": "LaughCamera",
+  "version": "1.0",
+  "summary": "A fast, straightforward implementation of AVFoundation camera with customizable real-time photo filters.",
+  "homepage": "https://github.com/peacemoon/LaughCamera",
+  "license": "MIT",
+  "authors": {
+    "Laura Skelton": "laura@ifttt.com",
+    "Jonathan Hersh": "jonathan@ifttt.com",
+    "Max Meyers": "max@ifttt.com",
+    "Devin Foley": "devin@ifttt.com"
+  },
+  "source": {
+    "git": "https://github.com/peacemoon/LaughCamera.git",
+    "tag": "1.0"
+  },
+  "social_media_url": "https://twitter.com/peacemoon",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "compiler_flags": "-fmodules",
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "CoreMotion"
+  ],
+  "source_files": "LaughCamera/*.{h,m}"
+}

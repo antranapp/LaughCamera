@@ -1,0 +1,14 @@
+PODS:
+  - LaughCamera (1.0)
+
+DEPENDENCIES:
+  - LaughCamera (from `../LaughCamera.podspec`)
+
+EXTERNAL SOURCES:
+  LaughCamera:
+    :path: ../LaughCamera.podspec
+
+SPEC CHECKSUMS:
+  LaughCamera: 38eb8ac1e367995c777235bb9574c27d50399b56
+
+COCOAPODS: 0.37.1

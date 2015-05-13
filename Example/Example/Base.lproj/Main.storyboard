@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wja-8E-uqp" customClass="RoundProgressView">
+                                <rect key="frame" x="260" y="504" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="XvZ-wj-G7x"/>
+                                    <constraint firstAttribute="height" constant="80" id="wFA-l2-eXR"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6fu-vX-Op7" customClass="RoundProgressView">
+                                <rect key="frame" x="356" y="504" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Ner-z5-hl2"/>
+                                    <constraint firstAttribute="width" constant="80" id="lXT-fV-Xxw"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t2r-1Q-5R4" customClass="RoundProgressView">
+                                <rect key="frame" x="164" y="504" width="80" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="30w-9g-RYR"/>
+                                    <constraint firstAttribute="height" constant="80" id="6Zw-pb-IEJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wja-8E-uqp" secondAttribute="bottom" constant="16" id="3je-Se-twx"/>
+                            <constraint firstAttribute="centerX" secondItem="wja-8E-uqp" secondAttribute="centerX" id="GZv-zw-6yI"/>
+                            <constraint firstItem="6fu-vX-Op7" firstAttribute="leading" secondItem="wja-8E-uqp" secondAttribute="trailing" constant="16" id="WMP-R5-WX4"/>
+                            <constraint firstItem="t2r-1Q-5R4" firstAttribute="bottom" secondItem="wja-8E-uqp" secondAttribute="bottom" id="Z2L-kv-F6o"/>
+                            <constraint firstItem="wja-8E-uqp" firstAttribute="leading" secondItem="t2r-1Q-5R4" secondAttribute="trailing" constant="16" id="kIL-a8-Ov8"/>
+                            <constraint firstItem="t2r-1Q-5R4" firstAttribute="bottom" secondItem="6fu-vX-Op7" secondAttribute="bottom" id="psb-Xe-rKE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="leftBlinkProgressView" destination="t2r-1Q-5R4" id="5ex-R3-SVF"/>
+                        <outlet property="rightBlinkProgressView" destination="6fu-vX-Op7" id="hXd-k8-6XO"/>
+                        <outlet property="smileProgressView" destination="wja-8E-uqp" id="gQx-Ss-QAE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
