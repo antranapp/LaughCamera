@@ -10,7 +10,9 @@ See "Example" Project to know how to use the library
 Author
 -----------------
 
-[An Tran](http://peacemoon.de "Homepage") [An Tran](https://www.github.com/peacemoon "Github") ([@peacemoon](http://twitter.com/peacemoon "@peacemoon"))
+[Homepage](http://peacemoon.de "Homepage")
+[Github](https://www.github.com/peacemoon "Github")
+([@peacemoon](http://twitter.com/peacemoon "@peacemoon"))
 
 License
 ----------------
