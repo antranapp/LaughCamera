@@ -10,11 +10,12 @@ See "Example" Project to know how to use the library
 Author
 -----------------
 
-[Homepage](http://peacemoon.de "Homepage")
-[Github](https://www.github.com/peacemoon "Github")
-([@peacemoon](http://twitter.com/peacemoon "@peacemoon"))
+[Homepage](http://peacemoon.de "Homepage")  
+[Github](https://www.github.com/peacemoon "Github")  
+([@peacemoon](http://twitter.com/peacemoon "@peacemoon"))  
 
 License
 ----------------
-
-MIT
+LaughCamera: MIT  
+FastttCamera: [IFTTT Inc](https://github.com/IFTTT/FastttCamera/blob/master/LICENSE "LICENSE")  
+DSFacialGestureDetector: [dannyshmueli](https://github.com/dannyshmueli/DSFacialGestureDetector "LICENSE")
