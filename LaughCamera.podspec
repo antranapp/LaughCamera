@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "LaughCamera"
-  s.version          = "1.0"
+  s.version          = "0.0.1"
   s.summary          = "A fast, straightforward implementation of AVFoundation camera with customizable real-time photo filters (and facial gestures recognition)."
   s.homepage         = "https://github.com/peacemoon/LaughCamera"
   s.license          = 'MIT'
